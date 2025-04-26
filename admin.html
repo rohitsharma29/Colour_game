@@ -1,0 +1,15 @@
+<h2>Admin Login</h2>
+<input id="pass" type="password" placeholder="Enter Password" />
+<button onclick="checkPass()">Login</button>
+
+<script>
+function checkPass() {
+  const pass = document.getElementById("pass").value;
+  if(pass === "admin123"){
+    alert("Login Success");
+    // यहाँ admin functionality जोड़ें
+  } else {
+    alert("Wrong Password");
+  }
+}
+</script>
